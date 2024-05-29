@@ -1,4 +1,4 @@
-# llama2.rs 🤗
+# llama2-rs
 
 This is a Rust implementation of Llama2 inference on CPU
 
@@ -15,8 +15,6 @@ It has the following features:
 * Python calling API 
 
 Can run up on *1 tok/s* 70B Llama2 and *9 tok/s* 7B Llama2. (on my intel i9 desktop) 
-
-<img src="https://github.com/srush/llama2.rs/assets/35882/dac9a285-b141-409f-bb46-c81a28516cd1" width=300px>
 
 To build, you'll need the nightly toolchain, which is used by default:
 
@@ -123,7 +121,3 @@ There are some dependencies:
 * `clap` for command-line args.
 * `pyO3` for python calling
 * SIMD enabled support with `portable_simd`
-
-### Authors
-
-Llama2.rs is written by @srush and @rachtsingh.
